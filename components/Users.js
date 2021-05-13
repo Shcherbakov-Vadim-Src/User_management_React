@@ -114,7 +114,7 @@ class Users extends PureComponent {
     render() {
 
         return (<>
-            <div>
+            <div className="mainConteiner">
                 <h1>The list of users</h1>
                 <SearchUsers handleSearchUser={this.handleSearchUser} />
                 <button className="button buttonAll" onClick={this.allhandler}>All users</button>

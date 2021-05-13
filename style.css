@@ -8,14 +8,14 @@ body {
 
 .conteiner {
     background-color: rgb(176, 194, 194);
-    padding: 10px 20px 10px 40px;
+    padding: 30px 20px 10px 40px;
     border-radius: 25px;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 20px 0;
     font-family: 'Anton', sans-serif;
     letter-spacing: 10px;
     color: rgb(51, 38, 6);
@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     position: relative;
     bottom: -10px;
-    left: 160px;
+    left: 60px; 
     width: 350px;
 }
 
@@ -52,7 +52,7 @@ h1 {
     width: 140px;
     position: relative;
     bottom: 50px;
-    left: 610px;
+    left: 460px;
     margin: 0 0 0 10px;
 }
 
@@ -60,7 +60,7 @@ h1 {
     width: 140px;
     position: relative;
     bottom: 50px;
-    left: 620px;
+    left: 470px; 
     margin: 0 0 0 10px;
 }
 
@@ -71,20 +71,21 @@ h1 {
 .buttonAll {
     width: 300px;
     position: relative;
-    bottom: 120px;
-    left: 620px;
+    bottom: 115px;
+    left: 470px;
+    height: 25px;
 }
 
 .buttonMale {
     position: relative;
-    bottom: 75px;
-    left: 320px;
+    bottom: 70px;
+    left: 170px;
 }
 
 .buttonFemale {
     position: relative;
-    bottom: 75px;
-    left: 340px;
+    bottom: 70px;
+    left: 190px;
 }
 
 .miniConteiner {
@@ -97,7 +98,7 @@ h1 {
     border-radius: 50px;
     width: 700px;
     height: 25px;
-    margin: -20px 0 0 160px;
+    margin: -20px 0 0 40px;
 }
 
 .buttonReset {
@@ -117,7 +118,7 @@ h1 {
     border-radius: 15px;
     text-align: center;
     position: relative;
-    left: 290px;
+    left: 190px;
     width: 450px;
     margin: 20px 0 0 0;
 }
@@ -132,4 +133,13 @@ h1 {
     width: 257px;
     height: 22px;
     margin: 10px 0 0 0;
+}
+
+.mainConteiner{
+    background-color: rgb(207, 204, 144);
+    width: 900px;
+    border-radius: 40px;
+    position: relative;
+    left: 300px;
+    padding: 20px 0 20px 0px;
 }

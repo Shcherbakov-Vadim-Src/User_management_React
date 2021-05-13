@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Itim&display=swap');
+
+body {
+    background-color: azure;
+    padding: 10px 20px 10px 20px;
+}
+
+.conteiner {
+    background-color: rgb(176, 194, 194);
+    padding: 10px 20px 10px 40px;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 20px 0;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    color: rgb(51, 38, 6);
+    font-weight: 800;
+}
+
+.bodyForm, .formSearch {
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px 0 10px 0px;
+}
+
+.inputName, .inputAge {
+    width: 300px;
+    margin: 10px 0 10px 0;
+}
+
+.formSearch {
+    background-color: rgb(224, 214, 201);
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+    left: 160px;
+    width: 350px;
+}
+
+.inputSearchName, .buttonSearchName {
+    width: 250px;
+    margin: 10px 0 10px 0px;
+}
+
+.buttonDown {
+    width: 140px;
+    position: relative;
+    bottom: 50px;
+    left: 610px;
+    margin: 0 0 0 10px;
+}
+
+.buttonUp {
+    width: 140px;
+    position: relative;
+    bottom: 50px;
+    left: 620px;
+    margin: 0 0 0 10px;
+}
+
+.button {
+    width: 140px;
+}
+
+.buttonAll {
+    width: 300px;
+    position: relative;
+    bottom: 120px;
+    left: 620px;
+}
+
+.buttonMale {
+    position: relative;
+    bottom: 75px;
+    left: 320px;
+}
+
+.buttonFemale {
+    position: relative;
+    bottom: 75px;
+    left: 340px;
+}
+
+.miniConteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    background-color: rgb(238, 201, 157);
+    border-radius: 50px;
+    width: 700px;
+    height: 25px;
+    margin: -20px 0 0 160px;
+}
+
+.buttonReset {
+    width: 80px;
+    height: 25px;
+    margin: 2px 0 0 30px;
+    border-radius: 50px;
+}
+
+.users {
+    font-family: 'Itim', cursive;
+    font-size: 27px;
+}
+
+.bodyForm {
+    background-color: rgb(224, 214, 201);
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    left: 290px;
+    width: 450px;
+    margin: 20px 0 0 0;
+}
+
+.buttonSuccess {
+    width: 307px;
+    height: 30px;
+    margin: 10px 0 0 0;
+}
+
+.buttonSearchName {
+    width: 257px;
+    height: 22px;
+    margin: 10px 0 0 0;
+}

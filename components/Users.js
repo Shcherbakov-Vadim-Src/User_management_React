@@ -103,14 +103,12 @@ class Users extends PureComponent {
         const array = [...this.state.users];
         const clone = array.sort((a, b) => b.age - a.age);
         this.setState({ users: clone });
-        console.log(clone);
     }
 
     handleSortUsersUp = () => {
         const array = [...this.state.users];
         const clone = array.sort((a, b) => a.age - b.age);
         this.setState({ users: clone });
-        console.log(clone);
     }
 
     render() {

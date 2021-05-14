@@ -12,18 +12,21 @@ class SearchUsers extends PureComponent {
 
   render() {
     return (
-      <form
-        onSubmit={this.onSubmit}
-        className="userForm"
-        style={{ width: "450px" }}
-      >
-        <div className="formSearch">
-            <input className="inputSearchName" placeholder="Введите имя" name="number" />
-              <button type="submit" className="buttonSearchName">
-                Найти пользователя
-              </button>
-        </div>
-      </form>
+      <>
+        <form
+          onSubmit={this.onSubmit}
+          className="userForm"
+          style={{ width: "450px" }}
+        >
+          <div className="formSearch">
+              <input className="inputSearchName" placeholder="Введите имя" name="number" />
+                <button type="submit" className="buttonSearchName">
+                  Найти пользователя
+                </button>
+          </div>
+        </form>
+        <button type="click" onClick={() => this.props.handlerAllStart()} className="buttonStart">Восстановить список</button>
+      </>
     );
   }
 }

@@ -111,12 +111,16 @@ class Users extends PureComponent {
         this.setState({ users: clone });
     }
 
+    handlerAllStart = () => {
+        window.location.reload();
+    }
+
     render() {
 
         return (<>
             <div className="mainConteiner">
                 <h1>The list of users</h1>
-                <SearchUsers handleSearchUser={this.handleSearchUser} />
+                <SearchUsers handleSearchUser={this.handleSearchUser} handlerAllStart={this.handlerAllStart} />
                 <button className="button buttonAll" onClick={this.allhandler}>All users</button>
                 <button className="button buttonMale" onClick={this.handleGetMale}>Users: male</button>
                 <button className="button buttonFemale" onClick={this.handleGetFemale}>Users: female</button>

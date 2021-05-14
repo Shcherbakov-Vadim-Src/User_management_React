@@ -43,24 +43,24 @@ h1 {
     width: 350px;
 }
 
-.inputSearchName, .buttonSearchName {
+.inputSearchName {
     width: 250px;
-    margin: 10px 0 10px 0px;
+    margin: 10px 0 20px 0px;
 }
 
 .buttonDown {
     width: 140px;
     position: relative;
-    bottom: 50px;
-    left: 460px;
+    bottom: 90px;
+    left: 475px;
     margin: 0 0 0 10px;
 }
 
 .buttonUp {
     width: 140px;
     position: relative;
-    bottom: 50px;
-    left: 470px; 
+    bottom: 90px;
+    left: 485px; 
     margin: 0 0 0 10px;
 }
 
@@ -71,21 +71,21 @@ h1 {
 .buttonAll {
     width: 300px;
     position: relative;
-    bottom: 115px;
-    left: 470px;
+    bottom: 130px;
+    left: 360px;
     height: 25px;
 }
 
 .buttonMale {
     position: relative;
-    bottom: 70px;
-    left: 170px;
+    bottom: 90px;
+    left: 60px;
 }
 
 .buttonFemale {
     position: relative;
-    bottom: 70px;
-    left: 190px;
+    bottom: 90px;
+    left: 80px;
 }
 
 .miniConteiner {
@@ -130,9 +130,10 @@ h1 {
 }
 
 .buttonSearchName {
-    width: 257px;
-    height: 22px;
-    margin: 10px 0 0 0;
+    width: 125px;
+    height: 42px;
+    position: relative;
+    left: -70px;
 }
 
 .mainConteiner{
@@ -142,4 +143,13 @@ h1 {
     position: relative;
     left: 300px;
     padding: 20px 0 20px 0px;
+}
+
+.buttonStart {
+    width: 125px;
+    height: 42px;
+    margin: 10px 0 0 0;
+    position: relative;
+    left: 260px;
+    bottom: 73px;
 }
